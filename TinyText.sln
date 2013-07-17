@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0B642C1A-78C9-41F6-B3A8-2DBB380E636E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TinyText", "TinyText\TinyText.vcxproj", "{D82BAD29-1821-49D1-8DA2-21E63C8B0FF2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9AC3DA38-494A-4A53-A1C3-30D8D1535172} = {9AC3DA38-494A-4A53-A1C3-30D8D1535172}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TinyText.Core", "TinyText.Core\TinyText.Core.vcxproj", "{9AC3DA38-494A-4A53-A1C3-30D8D1535172}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D82BAD29-1821-49D1-8DA2-21E63C8B0FF2}.Debug|x64.ActiveCfg = Debug|x64
+		{D82BAD29-1821-49D1-8DA2-21E63C8B0FF2}.Debug|x64.Build.0 = Debug|x64
+		{D82BAD29-1821-49D1-8DA2-21E63C8B0FF2}.Debug|x86.ActiveCfg = Debug|Win32
+		{D82BAD29-1821-49D1-8DA2-21E63C8B0FF2}.Debug|x86.Build.0 = Debug|Win32
+		{D82BAD29-1821-49D1-8DA2-21E63C8B0FF2}.Release|x64.ActiveCfg = Release|x64
+		{D82BAD29-1821-49D1-8DA2-21E63C8B0FF2}.Release|x64.Build.0 = Release|x64
+		{D82BAD29-1821-49D1-8DA2-21E63C8B0FF2}.Release|x86.ActiveCfg = Release|Win32
+		{D82BAD29-1821-49D1-8DA2-21E63C8B0FF2}.Release|x86.Build.0 = Release|Win32
+		{9AC3DA38-494A-4A53-A1C3-30D8D1535172}.Debug|x64.ActiveCfg = Debug|x64
+		{9AC3DA38-494A-4A53-A1C3-30D8D1535172}.Debug|x64.Build.0 = Debug|x64
+		{9AC3DA38-494A-4A53-A1C3-30D8D1535172}.Debug|x86.ActiveCfg = Debug|Win32
+		{9AC3DA38-494A-4A53-A1C3-30D8D1535172}.Debug|x86.Build.0 = Debug|Win32
+		{9AC3DA38-494A-4A53-A1C3-30D8D1535172}.Release|x64.ActiveCfg = Release|x64
+		{9AC3DA38-494A-4A53-A1C3-30D8D1535172}.Release|x64.Build.0 = Release|x64
+		{9AC3DA38-494A-4A53-A1C3-30D8D1535172}.Release|x86.ActiveCfg = Release|Win32
+		{9AC3DA38-494A-4A53-A1C3-30D8D1535172}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
